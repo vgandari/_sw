@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<appProperties xmlns="http://schemas.mathworks.com/matlab/app/2012/appProperties" signature="2B674E79D6D016AC9F1ECA3A7D4B445D2829F9CE">
+
+  <entryPoint>SpinCalcVis</entryPoint>
+
+  <name>Euler angle, DCM, Quaternion and Euler Vector Conversion GUI</name>
+
+  <version>1.0</version>
+
+  <createdByMATLABRelease>(R2012b)</createdByMATLABRelease>
+
+  <GUID>6e5529b3-d852-4236-879a-acf348321446</GUID>
+
+  <summary>A GUI that helps users learn how Euler angles and other rotational data relate to one another.</summary>
+
+  <description>This is an instructional GUI to be used for learning how Euler angles, DCMs, quaternions, and Euler vector parameters relate in the rotation of cartesian frames (A to B). Can also be used to convert between all 4 values, however see below for a function that accomplishes this. 
+Features: 
+- All 12 sequences of Euler angle rotation types. 
+- Color coded axes and angle labeling for reference. 
+- Normalization of input Q or Euler vector components. 
+- Plotting options for viewing Euler angles or Euler vector separately. 
+- Error dialog box to prohibit faulty input or notify user of possible singularities.
+For the function-based rotation conversion, please see SpinCalc:
+http://www.mathworks.com/matlabcentral/fileexchange/20696-function-to-convert-between-dcm-euler-angles-quaternions-and-euler-vectors
+Uses an enhanced uicontrol GUI function for support of LaTeX formatting: 
+Function uibutton, Author: Douglas Schwarz
+Source: 
+http://www.mathworks.com/matlabcentral/fileexchange/10743-uibutton-gui-pushbuttons-with-better-labels
+This is my first venture at a GUI so if there are bugs, please let me know.</description>
+
+  <author>
+    <name>John Fuller</name>
+    <contact></contact>
+    <organization></organization>
+  </author>
+
+  <supportedPlatforms/>
+
+  <requiredProducts>
+    <product identifier="1" name="MATLAB" version="8.0"/>
+  </requiredProducts>
+
+  <numFiles>1</numFiles>
+
+  <created>2012-08-03T14:06:41Z</created>
+
+  <appEntries>
+    <appFile>/SpinCalcVis.m</appFile>
+  </appEntries>
+
+</appProperties>
